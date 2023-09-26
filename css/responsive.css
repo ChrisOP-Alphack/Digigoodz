@@ -1,0 +1,1227 @@
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	html {
+		font-size: 50%;
+	}
+
+	.main-left-col {
+		position: fixed;
+		width: 32rem;
+		height: 100%;
+		background: #191919;
+		top: 0;
+		left: -100%;
+		overflow-y: scroll;
+		transition: .35s;
+		z-index: 9999;
+	}
+
+	.main-left-col.current {
+		left: 0;
+	}
+
+	.main-left {
+		width: 32rem;
+	}
+
+	.header-part {
+		width: 100%;
+		padding: 3rem 3rem;
+		padding-right: 4rem;
+	}
+
+	.headerfixed {
+		width: 100%;
+		padding: 2rem 3rem;
+		padding-right: 4rem;
+	}
+
+	.right-mainpart {
+		padding-top: 10.2rem;
+	}
+
+	.logo {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: #191919;
+		padding: 2rem 2rem 3.5rem 1.2rem;
+	}
+
+	.power-btn {
+		padding: 1rem 3.5rem;
+		text-align: left;
+	}
+
+	.menu-part {
+		padding: 5rem 5rem 4rem;
+	}
+	
+	.menu-bottom {
+		padding: 0 4rem 3.2rem;
+	}
+
+	.vision-area {
+		padding: 1.8rem 3rem 14rem;
+	}
+
+	.collection-area {
+		padding: 2rem 3rem 15rem;
+	}
+
+	.games-part {
+		padding: 0.8rem 4rem;
+	}
+
+	.dinodash-part {
+	  padding: 6rem 4rem;
+	}
+
+	.enza-part {
+	  padding: 0rem 4rem 6rem;
+	}
+
+	.dinodash-area {
+		padding-bottom: 13rem;
+	}
+
+	.footer-area {
+		padding: 0rem 3.6rem 8rem;
+	}
+
+	.footer-item h4 {
+		font-size: 2.1rem;
+	}
+
+	.footer-item .subscribe-btn {
+		width: 18.2rem;
+		font-size: 1.4rem;
+	}
+
+	.dash-area-s1 {
+		padding: 0 4rem;
+	}
+
+	.dash-area-inner2-s1 {
+		padding: 3rem 2rem 5rem;
+	}
+
+	.dash-item-inner-s1 {
+		margin-right: 3.5rem;
+	}
+
+	.dash-item-inner-s1 h2 {
+		font-size: 4.2rem;
+	}
+
+	.dash-item2-s1 {
+		right: 4.6rem;
+	}
+
+	.dash-item2-s1 img {
+		width: 45.5rem;
+	}
+
+	.dash-item-inner-s1 {
+		width: 50%;
+	}
+
+	.dash-item-inner2-s1 h3 {
+		font-size: 3rem;
+	}
+
+	.dash-item-inner2-s1 h3 span {
+		font-size: 5.6rem;
+	}
+
+	.dash-item-inner2-s1 h6 {
+		font-size: 1.25rem;
+		width: 35rem;
+	}
+
+	.dash-item-inner2-s1 h6 br {
+		display: none;
+	}
+
+	.dash-item-inner2-s1 {
+		text-align: center;
+		margin: auto;
+	}
+
+	.indvid-part .games-item img {
+		width: 15rem;
+	}
+
+	.indvid-part .games-item img {
+		bottom: 1rem;
+	}
+
+	.dash-area2-s1 {
+		padding: 7rem 2rem 14rem;
+	}
+
+	.dash-item5-s1 p br {
+		display: none;
+	}
+
+	.dash-area-s1 {
+		margin-top: 0.8rem;
+	}
+
+	.popular-area-s1 {
+		padding: 10rem 3rem 2rem;
+	}
+
+	.popular-item2-s1 {
+		width: 26rem;
+	}
+
+	.popular-item2-inner3-s1 {
+		margin-right: 2.5rem;
+	}
+
+	.watchlist-area {
+		padding-bottom: 16rem;
+	}
+
+	.popular-item-inner-s1 h2 {
+		font-size: 2.7rem;
+	}
+
+	.popular-item2-inner3-s1 div > img {
+		width: 4.5rem;
+		height: 4.5rem;
+	}
+
+	.popular-item2-inner4-s1 h6 {
+		font-size: 1.4rem;
+	}
+
+	.popular-item2-inner2-s1 h2 {
+		font-size: 1.8rem;
+	}
+
+	.popular-item2-inner3-s1 {
+		margin-left: 1.05rem;
+	}
+
+	.wallet-btn a {
+		font-size: 1.4rem;
+		padding: 1.2rem 2rem;
+	}
+
+	.wallet-btn {
+		margin-left: 2rem;
+	}
+
+	.profile-item2 {
+		margin-left: 3.6rem;
+	}
+
+	.search-bar2 {
+		width: 38rem;
+	}
+
+	.staking-area {
+		padding: 7rem 3rem 10rem;
+	}
+
+	.staking-upper p {
+		font-size: 1.4rem;
+	}
+
+	.yoot-area {
+		padding: 3.5rem 2.5rem 4.5rem;
+	}
+
+	.list-partflt {
+		margin-top: 2rem;
+	}
+
+	.buy-cnt,
+	.buy-item,
+	.price-itemfl {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+
+	.filter-tab ul li a {
+		font-size: 2rem;
+	}
+
+	.buy-cnt p,
+	.buy-cnt h6,
+	.price-itemfl h4,
+	.price-itemfl a {
+		font-size: 2rem;
+	}
+
+	.buy-item ul li {
+		font-size: 1.8rem;
+	}
+
+	.price-itemfl p {
+		font-size: 1.6rem;
+	}
+
+	.filter-right {
+		margin-top: 5rem;
+	}
+
+	.list-partbox h2 {
+		font-size: 2rem;
+	}
+
+	.list-partbox p {
+		font-size: 1.6rem;
+	}
+
+	.list-partbox h3 {
+		font-size: 1.8rem;
+	}
+
+	.list-partbox h3 img {
+		width: 2rem;
+	}
+
+	.list-partbox h3 span {
+		font-size: 1.4rem;
+	}
+
+	.list-partbox a {
+		padding: 1rem 1rem 1.2rem; 
+	}
+
+	.filter-menutop ul li a {
+		font-size: 1.6rem;
+	}
+
+	.filter-menutop ul {
+		width: 100%;
+	}
+
+	.filter-menutop ul li a img {
+		width: 2rem;
+	}
+
+	.live-cnt a {
+		font-size: 1.6rem;
+	}
+
+	.grid-view select {
+		font-size: 1.6rem;
+	}
+
+	.instant-selbtn a {
+		width: 21.5rem;
+	}
+
+	.instant-selbtn a span {
+		font-size: 1.5rem;
+	}
+
+	.list-searchbar input {
+		font-size: 1.5rem;
+	}
+
+	.filter-left {
+		width: 100%;
+		background: #212223;
+		display: block;
+		position: fixed;
+		height: 100vh;
+		overflow-y: scroll;
+		top: 8.2rem;
+		left: -100%;
+		padding-bottom: 10rem;
+		transition: 0.35s;
+	}
+
+	.filter-show {
+		left: 0;
+	}
+
+	.filter-switch {
+		padding-left: 3rem;
+		padding-right: 9.5rem;
+	}
+
+	.filter-item ul li a {
+		padding-left: 3rem;
+		padding-right: 5rem;
+	}
+
+	.resp-filter .filter-upper {
+		background: rgba(0, 0, 0, 0.5);
+		width: 3rem;
+		height: 2.9rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		top: 10rem;
+		right: 4rem;
+		z-index: 99;
+		border-radius: 0.7rem;
+	}
+
+	.resp-filter .filter-upper img {
+		width: 2.4rem;
+	}
+
+	.filter-item ul li a {
+		font-size: 1.8rem;
+	}
+
+	.filter-item ul li a img {
+		width: 2rem;
+	}
+
+	.filter-switchleft p {
+		font-size: 1.6rem;
+	}
+
+
+}
+
+/*
+================================================
+Medium devices (tablets, 767px and down)
+================================================
+*/
+@media screen and (max-width: 767px) {
+
+	html {
+		font-size: 42%;
+	}
+
+	.main-left-col {
+		position: fixed;
+		width: 32rem;
+		height: 100%;
+		background: #191919;
+		top: 0;
+		left: -100%;
+		overflow-y: scroll;
+		transition: .35s;
+		z-index: 9999;
+	}
+
+	.main-left-col.current {
+		left: 0;
+	}
+
+	.main-left {
+		width: 32rem;
+	}
+
+	.header-part {
+		width: 100%;
+		padding: 3rem 2.5rem;
+		padding-right: 3.5rem;
+	}
+
+	.headerfixed {
+		width: 100%;
+		padding: 2rem 2.5rem;
+		padding-right: 3.5rem;
+	}
+
+	.right-mainpart {
+		padding-top: 10.2rem;
+	}
+
+	.logo {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: #191919;
+		padding: 2rem 2rem 3.5rem 1.2rem;
+	}
+
+	.power-btn {
+		padding: 1rem 3.5rem;
+		text-align: left;
+	}
+
+	.menu-part {
+		padding: 5rem 5rem 4rem;
+	}
+	
+	.menu-bottom {
+		padding: 0 4rem 3.2rem;
+	}
+
+	.search-bar {
+		width: 43rem;
+	}
+
+	.vision-area {
+		padding: 1.2rem 3rem 14rem;
+	}
+
+	.vision-bg2 {
+		height: 28rem;
+	}
+
+	.collection-area {
+		padding: 1.6rem 2.5rem 12.5rem;
+	}
+
+	.games-part {
+		padding: 1rem 2rem;
+	}
+
+	.games-item img {
+		width: ;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.games-cnt {
+		width: 35.6rem;
+	}
+
+	.games-cnt h2 {
+		font-size: 3.6rem;
+	}
+
+	.games-cnt h4 {
+		font-size: 1.7rem;
+	}
+
+	.dinodash-area {
+		padding-bottom: 12.5rem;
+	}
+
+	.dinodash-part {
+	  	padding: 5rem 2rem;
+	}
+
+	.enza-part {
+	  padding: 0rem 2rem 5rem;
+	}
+
+	.footer-area {
+		padding: 0rem 3rem 8rem;
+	}
+
+	.footer-left {
+		width: 100%;
+	}
+
+	.footer-right {
+		margin-top: 4.5rem;
+	}
+
+	.footer-left p {
+		font-size: 2rem;
+	}
+
+	.footer-item ul li a {
+		font-size: 1.85rem;
+	}
+
+	.footer-item h4 {
+		font-size: 2.5rem;
+	}
+
+	.footer-item .subscribe-btn {
+		font-size: 1.7rem;
+	}
+
+	.dash-area-s1 {
+		padding: 0 3rem;
+	}
+
+	.dash-area-inner2-s1 {
+		padding: 3rem 2rem 4rem;
+	}
+
+	.dash-item3-s1 ul {
+		padding-bottom: 10rem;
+	}
+
+	.dash-item-inner-s1 {
+		margin-right: 0;
+		margin-bottom: 5rem;
+		width: 55%;
+	}
+
+	.dash-item-inner-s1 h2 {
+		font-size: 3.6rem;
+	}
+
+	.dash-item-inner-s1 p {
+		font-size: 1.9rem;
+	}
+
+	.dash-item-inner2-s1 h3 {
+		font-size: 2.6rem;
+	}
+
+	.dash-item-inner2-s1 h3 span {
+		font-size: 4.9rem;
+	}
+
+	.dash-item-inner2-s1 h6 {
+		font-size: 1.25rem;
+		width: 35rem;
+	}
+
+	.dash-item-inner2-s1 h6 br {
+		display: none;
+	}
+
+	.dash-item-inner3-s1 a {
+		font-size: 1.2rem;
+	}
+
+	.dash-item2-s1 {
+		right: 3.5rem;
+	}
+
+	.dash-item2-s1 img {
+		width: 45rem;
+	}
+
+	.dash-area2-s1 {
+		padding-top: 8rem 2rem 5rem;
+	}
+
+	.dash-item-inner2-s1 {
+		text-align: center;
+		margin: auto;
+	}
+
+	.indvid-part .games-item img {
+		width: 15.2rem;
+	}
+
+	.indvid-part .games-item img {
+		bottom: 0.7rem;
+	}
+
+	.dash-area2-s1 {
+		padding: 7rem 2.5rem 14rem;
+	}
+
+	.dash-area-s1 {
+		margin-top: 0.5rem;
+	}
+
+	.popular-area-s1 {
+		padding: 7rem 3rem 2rem;
+	}
+
+	.popular-area2-s1 {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+
+	.popular-item-s1 {
+		flex-wrap: wrap;
+	}
+
+	.popular-item2-s1 {
+		width: 50%;
+	}
+
+	.watchlist-area {
+		padding-bottom: 17rem;
+	}
+
+	.popular-item-inner-s1 h2 {
+		font-size: 2.7rem;
+	}
+
+	.popular-item2-inner3-s1 div > img {
+		width: 4.5rem;
+		height: 4.5rem;
+	}
+
+	.popular-item2-inner4-s1 h6 {
+		font-size: 1.4rem;
+	}
+
+	.popular-item2-inner2-s1 h2 {
+		font-size: 1.8rem;
+	}
+
+	.popular-item-inner3-s1 .dropdown-menu .dropdown-item {
+		font-size: 1.2rem;
+	}
+
+	.popular-item-inner2-s1 ul li {
+		padding: 0 0.5rem;
+	}
+
+	.popular-item-inner2-s1 ul li a {
+		padding: 0.8rem 2.6rem!important;
+	}
+
+	.wallet-btn a {
+		font-size: 1.4rem;
+		padding: 1.2rem 1.6rem;
+	}
+
+	.wallet-btn {
+		margin-left: 1.5rem;
+	}
+
+	.profile-item2 {
+		margin-left: 3rem;
+	}
+
+	.search-bar2 {
+		width: 32rem;
+	}
+
+	.staking-area {
+		padding: 5rem 3rem 8rem;
+	}
+
+	.staking-upper {
+		flex-wrap: wrap;
+	}
+
+	.staking-upper p {
+		width: 100%;
+		order: 1;
+		margin-top: 2.5rem;
+	}
+
+	.popular-item2-inner-s1 > div {
+		padding-right: 1rem;
+	}
+
+	.yoot-area {
+		padding: 3.5rem 2.5rem 4.5rem;
+	}
+
+	.yoot-left img {
+		width: 15.2rem;
+		height: 15.2rem;
+	}
+
+	.yoot-left {
+		margin-right: 4.5rem;
+	}
+
+	.list-partflt {
+		margin-top: 2rem;
+	}
+
+	.buy-cnt,
+	.buy-item,
+	.price-itemfl {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+
+	.filter-tab ul li a {
+		font-size: 2rem;
+	}
+
+	.buy-cnt p,
+	.buy-cnt h6,
+	.price-itemfl h4,
+	.price-itemfl a {
+		font-size: 2rem;
+	}
+
+	.buy-item ul li {
+		font-size: 1.8rem;
+	}
+
+	.price-itemfl p {
+		font-size: 1.6rem;
+	}
+
+	.filter-right {
+		margin-top: 5rem;
+	}
+
+	.list-partbox h2 {
+		font-size: 2rem;
+	}
+
+	.list-partbox p {
+		font-size: 1.6rem;
+	}
+
+	.list-partbox h3 {
+		font-size: 1.8rem;
+	}
+
+	.list-partbox h3 img {
+		width: 2rem;
+	}
+
+	.list-partbox h3 span {
+		font-size: 1.4rem;
+	}
+
+	.list-partbox a {
+		padding: 1rem 1rem 1.2rem; 
+	}
+
+	.filter-menutop ul li a {
+		font-size: 1.6rem;
+	}
+
+	.filter-menutop ul {
+		width: 100%;
+	}
+
+	.filter-menutop ul li a img {
+		width: 2rem;
+	}
+
+	.live-cnt a {
+		font-size: 1.6rem;
+	}
+
+	.grid-view select {
+		font-size: 1.6rem;
+	}
+
+	.instant-selbtn a {
+		width: 21.5rem;
+	}
+
+	.instant-selbtn a span {
+		font-size: 1.5rem;
+	}
+
+	.list-searchbar input {
+		font-size: 1.5rem;
+	}
+
+	.filter-left {
+		width: 100%;
+		background: #212223;
+		display: block;
+		position: fixed;
+		height: 100vh;
+		overflow-y: scroll;
+		top: 8.2rem;
+		left: -100%;
+		padding-bottom: 10rem;
+		transition: 0.35s;
+	}
+
+	.filter-show {
+		left: 0;
+	}
+
+	.filter-switch {
+		padding-left: 3rem;
+		padding-right: 9.5rem;
+	}
+
+	.filter-item ul li a {
+		padding-left: 3rem;
+		padding-right: 5rem;
+	}
+
+	.resp-filter .filter-upper {
+		background: rgba(0, 0, 0, 0.5);
+		width: 3rem;
+		height: 2.9rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		top: 10rem;
+		right: 4rem;
+		z-index: 99;
+		border-radius: 0.7rem;
+	}
+
+	.resp-filter .filter-upper img {
+		width: 2.8rem;
+	}
+
+	.filter-item ul li a {
+		font-size: 2rem;
+	}
+
+	.filter-item ul li a img {
+		width: 2.2rem;
+	}
+
+	.filter-switchleft p {
+		font-size: 1.8rem;
+	}
+
+
+
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+	.search-bar {
+		display: none;
+	}
+
+	.header-part {
+		width: 100%;
+		padding: 2.5rem 2rem;
+		padding-right: 3rem;
+	}
+
+	.headerfixed {
+		width: 100%;
+		padding: 2rem 2rem;
+		padding-right: 3rem;
+	}
+
+	.right-mainpart {
+		padding-top: 10rem;
+	}
+
+	.notification-item {
+		margin-left: 3.2rem;
+	}
+
+	.card-item {
+		margin-left: 3.5rem;
+	}
+
+	.vision-area {
+		padding: 0.5rem 1.6rem 10rem;
+	}
+
+	.vision-bg2 {
+		height: 18rem;
+	}
+
+	.vision-cnt {
+		padding-top: 10rem;
+		padding-left: 3rem;
+		padding-right: 1rem;
+		padding-bottom: 4.5rem;
+	}
+
+	.vision-cnt h2 {
+		font-size: 3.6rem;
+	}
+
+	.collection-area {
+		padding: 1.6rem 2rem 12rem;
+	}
+
+	.games-part {
+		padding: 1rem 1.5rem 4.5rem;
+	}
+
+	.games-item img {
+		width: 85%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.games-cnt {
+		width: 100%;
+		margin-top: 2.5rem;
+	}
+
+	.dinodash-part {
+	  	padding: 0rem 1.5rem 4.5rem;
+	  	position: relative;
+	  	margin-top: 1.6rem;
+	}
+
+	.dinodash-cnt {
+		width: 100%;
+		margin-top: 4rem;
+	}
+
+	.dinodash-area {
+		padding-bottom: 9rem;
+	}
+
+	.enza-part {
+	  	padding: 0rem 1.5rem 4.5rem;
+	}
+
+	.enza-cnt {
+		width: 100%;
+		margin-top: 4rem;
+	}
+
+	.games-cnt h4 {
+		font-size: 1.9rem;
+	}
+
+	.games-cnt p {
+		font-size: 1.6rem;
+	}
+
+	.dinodash-cnt p,
+	.enza-cnt p {
+		font-size: 1.8rem;
+	}
+
+	.footer-area {
+		padding: 0rem 2.5rem 7.5rem;
+	}
+
+	.subscribe-item {
+		margin-top: 4.5rem;
+	}
+
+	.dash-item-s1 {
+		flex-wrap: wrap;
+	}
+
+	.dash-item-s1 > div {
+		width: 100%;
+		text-align: center;
+	}
+
+	.dash-item-inner-s1 {
+		margin-right: 0;
+		margin-bottom: 5rem;
+	}
+
+	.dash-item-inner-s1 h2 {
+		font-size: 3.6rem;
+	}
+
+	.dash-item-inner2-s1 {
+		width: 100%;
+		margin-top: 2rem;
+	}
+
+	.dash-item-inner2-s1 h3 {
+		font-size: 2.15rem;
+	}
+
+	.dash-item-inner2-s1 h3 span {
+		font-size: 4rem;
+	}
+
+	.dash-item-inner2-s1 h6 {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.dash-item2-s1 {
+		position: initial;
+		width: 40rem;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.dash-item2-s1 img {
+		width: 100%;
+		margin-top: -15rem;
+	}
+
+	.dash-item3-s1 ul  {
+		padding-bottom: 5rem;
+	}
+
+	.dash-area2-s1 {
+		padding-top: 6rem;
+	}
+
+	.dash-area-s1 {
+		padding: 0 1.5rem;
+	}
+
+	.indvid-part .games-cnt {
+		margin-top: 5rem;
+	}
+
+	.dash-area2-s1 {
+		padding: 6rem 2rem 13.5rem;
+	}
+
+	.dash-item4-s1 h2 {
+		font-size: 3rem;
+	}
+
+	.popular-item2-s1 {
+		width: 100%;
+	}
+
+	.popular-item-inner-s1 {
+		width: 100%;
+	}
+
+	.popular-item-inner2-s1 {
+		width: 76%;
+	}
+
+	.popular-item-inner3-s1 {
+		width: 24%;
+	}
+
+	.popular-item-inner2-s1 ul li {
+		padding: 0 0.5rem;
+	}
+
+	.popular-item-inner2-s1 ul li a {
+		padding: 0.8rem 2.6rem!important;
+	}
+
+	.watchlist-area {
+		padding-bottom: 14.5rem;
+	}
+
+	.launch-tab2 {
+		width: 88%;
+	}
+
+	.launch-tab3 {
+		width: 12%;
+	}
+
+	.staking-area {
+		padding: 5rem 2rem 6rem;
+	}
+
+	.staking-upper p {
+		margin-top: 2rem;
+	}
+
+	.staking-main {
+		padding-top: 4rem;
+	}
+
+	.staking-main a {
+		padding: 3.6rem 1.6rem;
+	}
+
+	.stack-item img {
+		width: 6rem;
+	}
+
+	.staking-main p {
+		font-size: 1.4rem;
+	}
+
+	.staking-main h4 {
+		font-size: 1.8rem;
+	}
+
+	.stack-arrow {
+		width: 8%;
+	}
+
+	.popular-item2-inner2-s1 h2 {
+		font-size: 2.3rem;
+	}
+
+	.popular-item2-inner3-s1 div > img {
+		width: 5.85rem;
+		height: 5.85rem;
+		margin-right: 1.5rem;
+	} 
+
+	.popular-item2-inner3-s1 div h3 {
+		font-size: 1.9rem;
+	}
+
+	.popular-item2-inner3-s1 div h3 img {
+		width: 1.8rem;
+	}
+
+	.popular-item2-inner3-s1 div p {
+		font-size: 1.5rem;
+	}
+
+	.popular-item2-inner3-s1 div p img {
+		width: 1.75rem;
+	}
+
+	.popular-item2-inner4-s1 h6 {
+		font-size: 1.85rem;
+	}
+
+	.popular-item2-inner4-s1 h5 {
+		font-size: 1.5rem;
+	}
+
+	.popular-item2-inner4-s1 h5 img {
+		width: 1.75rem;
+	}
+
+	.popular-item2-inner3-s1 {
+		margin-right: 8rem;
+		margin-left: 2rem;
+	}
+
+	.popular-item2-s1 {
+		padding-left: 1rem;
+	}
+
+	.yoot-main {
+		flex-wrap: wrap;
+	}
+
+	.yoot-area {
+		padding: 2.5rem 2rem 4rem;
+	}
+
+	.yoot-left {
+		margin-bottom: 3rem;
+	}
+
+	.list-partmain {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+
+	.filter-menutop ul {
+		width: 100rem;
+	}
+
+	.resp-filter .filter-upper {
+		background: rgba(0, 0, 0, 0.5);
+		width: 3rem;
+		height: 2.9rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		top: 10rem;
+		right: 4rem;
+		z-index: 99;
+		border-radius: 0.7rem;
+	}
+
+	.resp-filter .filter-upper img {
+		width: 2.4rem;
+	}
+
+	.list-searchbar input {
+		width: 20rem;
+	}
+
+	.instant-selbtn a {
+		width: 19.8rem;
+		padding: 0.85rem 1.6rem
+	}
+
+	.instant-selbtn a .ethrem {
+		margin-right: 0.5rem;
+	}
+
+	.list-partflt {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+}
